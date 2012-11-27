@@ -1,0 +1,26 @@
+h1. CHANGELOG
+
+h2. 1.0.4 November 13, 2012
+
+* display month numbers for credit card expiry on new and edit registration forms (contributed by Aaron Breckenridge)
+
+h2. 1.0.3 November 11, 2012
+
+* fix issue #15: ddded the stripe error response div to the account/edit page (contributed by Matt Witek)
+
+h2. 1.0.2 November 9, 2012
+
+* fix issue #14: make sure plan parameter persists after failed registration (contributed by Matt Witek)
+* fix issue #13: removing a user subscription plan won't alter the Role database (contributed by Taylor Mock)
+* fix issue #12: example.com email addresses can be used in development and test but not production (contributed by Matt Witek)
+
+h2. 1.0.1 October 27, 2012
+
+* fix issue #8: mass assignment error when changing plans
+* require a new user to choose a subscription plan (contributed by Taylor Mock)
+* add mailer specs (contributed by Taylor Mock)
+* fix rspec test for content controller (contributed by Jordan Andree)
+
+h2. 1.0.0 October 25, 2012
+
+* initial release (build using rails_apps_composer 2.2.16)
